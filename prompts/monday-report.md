@@ -1,4 +1,4 @@
-Save this as a recurring Grok task, set to Monday morning. Replace [DOMAIN].
+Save this as a recurring task in your agent (Grok Tasks, ChatGPT scheduled tasks, Claude routines), set to Monday morning. Replace [DOMAIN].
 
 ```
 Run my weekly session health report for [DOMAIN].

@@ -1,8 +1,8 @@
 {
-  "name": "flowsery-grok-connector",
+  "name": "flowsery-remote-mcp",
   "version": "1.0.0",
   "private": true,
-  "description": "Read-only MCP connector for Flowsery, deployed as a Cloudflare Worker. Built for Grok custom connectors.",
+  "description": "Hosted read-only MCP server for Flowsery on Cloudflare Workers. Works with any MCP client.",
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",

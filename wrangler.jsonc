@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "flowsery-grok-connector",
+  "name": "flowsery-mcp",
   "main": "src/index.js",
   "compatibility_date": "2026-09-01",
   "observability": { "enabled": true }

@@ -150,7 +150,7 @@ async function handleRpc(message, env) {
       return rpcResult(id, {
         protocolVersion,
         capabilities: { tools: {} },
-        serverInfo: { name: "flowsery-readonly", version: "1.0.0" },
+        serverInfo: { name: "flowsery-readonly", version: "1.1.0" },
         instructions: "Read-only access to Flowsery analytics and AI-detected issues. Call list_websites first when using a workspace token. Re-rank issues by sessionsCount, not by the API sort order.",
       });
     }
