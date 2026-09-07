@@ -91,7 +91,7 @@ CONNECTOR_URL=http://localhost:8787 CONNECTOR_SECRET=<value from .dev.vars> npm 
 
 ## Deploy from GitHub Actions
 
-`.github/workflows/deploy.yml` deploys on every push to `main`. Add `CLOUDFLARE_API_TOKEN` (Workers Scripts: Edit) and `CLOUDFLARE_ACCOUNT_ID` as repository secrets. Worker secrets still need to be set once with `wrangler secret put`.
+`.github/workflows/deploy.yml` deploys when you trigger it from the Actions tab. Add `CLOUDFLARE_API_TOKEN` (Workers Scripts: Edit) and `CLOUDFLARE_ACCOUNT_ID` as repository secrets. Worker secrets still need to be set once with `wrangler secret put`.
 
 ## How it works
 
