@@ -1,0 +1,17 @@
+{
+  "name": "flowsery-grok-connector",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only MCP connector for Flowsery, deployed as a Cloudflare Worker. Built for Grok custom connectors.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "secrets": "wrangler secret put FLOWSERY_KEY && wrangler secret put CONNECTOR_SECRET",
+    "smoke": "bash scripts/smoke.sh"
+  },
+  "devDependencies": {
+    "wrangler": "^4.129.0"
+  },
+  "license": "MIT"
+}
