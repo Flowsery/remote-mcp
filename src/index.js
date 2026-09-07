@@ -76,7 +76,7 @@ const TOOLS = [
     name: "get_" + segment.replace(/-/g, "_"),
     path: "/" + segment,
     props: COMMON,
-    description: "Analytics segmented by " + segment.replace(/-/g, " ") + ". Supports filter_ prefixed query filters such as filter_device=mobile.",
+    description: "Analytics segmented by " + segment.replace(/-/g, " ") + ". Supports filter_ prefixed query filters such as filter_device=Mobile or filter_browser=Chrome. Filter values are case-sensitive and match the values the segment tools return.",
   })),
 ];
 

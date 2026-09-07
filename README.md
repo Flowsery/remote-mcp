@@ -79,6 +79,8 @@ Copy [prompts/system-prompt.md](prompts/system-prompt.md) into the agent's custo
 
 **`get_timeseries` needs `fields`.** It also takes `interval` (`hour`, `day`, `week`, `month`). The worker rejects a call without `fields` before it reaches Flowsery.
 
+**Filter values are case-sensitive.** `filter_device=Mobile` works, `filter_device=mobile` returns an empty list. Use the values the segment tools return (`Mobile`, `Chrome`, `Android`).
+
 **Nothing here writes.** If you want status changes and draft PRs, that happens in Flowsery itself.
 
 ## Local development
