@@ -6,7 +6,7 @@
 
 A hosted, read-only MCP server for Flowsery. It puts your analytics and AI-detected issues inside whatever agent you already use. Grok, Claude, ChatGPT, Cursor, or anything else that speaks MCP over Streamable HTTP.
 
-It runs as one Cloudflare Worker with no dependencies. Every tool is a GET against the [Flowsery Analytics API](https://flowsery.com/en/docs/api-introduction). Nothing in here can create, update or delete anything.
+It runs as one Cloudflare Worker with no dependencies. Every tool is a GET against the [Flowsery Analytics API](https://flowsery.com/docs/api-introduction). Nothing in here can create, update or delete anything.
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Flowsery/remote-mcp)
 
