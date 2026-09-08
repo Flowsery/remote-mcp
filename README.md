@@ -10,7 +10,15 @@ It runs as one Cloudflare Worker with no dependencies. Every tool is a GET again
 
 [![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/Flowsery/remote-mcp)
 
-If you want to run MCP locally over stdio instead, use [flowsery-mcp](https://github.com/TarasShyn/flowsery-mcp). This repo is the hosted counterpart for agents that only accept a URL.
+## Do you need this?
+
+Probably not. Flowsery already runs a hosted MCP server at `https://mcp.flowsery.com/mcp` that signs you in through the browser, no key to paste:
+
+```bash
+claude mcp add --transport http flowsery https://mcp.flowsery.com/mcp
+```
+
+That server exposes every tool, including the ones that update issues and delete goals or payments. This worker exists for one reason: it exposes only the read tools, and it keeps your Flowsery key on your side. Use it when the agent should be able to read everything and change nothing. Otherwise use the hosted server and skip the rest of this page.
 
 ## What you get
 
